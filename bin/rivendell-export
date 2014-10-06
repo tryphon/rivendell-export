@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "rivendell/export"
+require "rivendell/export/cli"
+
+Rivendell::Export::CLI.new(ARGV).run
